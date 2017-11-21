@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+  <Properties>
+    <targetEntity>
+      <Type>MAILBOX</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </targetEntity>
+    <sourceEntity>
+      <Type>MAILBOX</Type>
+      <Flags>CELL_PRIVATE</Flags>
+    </sourceEntity>
+    <envir>
+      <Type>INT16</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </envir>
+    <att>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-1</Default>
+    </att>
+    <attAdd>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-1</Default>
+    </attAdd>
+    <HP>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-1</Default>
+    </HP>
+    <cost>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-1</Default>
+    </cost>
+    <costAdd>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-999</Default>
+    </costAdd>
+    <HPAdd>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>-1</Default>
+    </HPAdd>
+    <spellPower>
+      <Type>INT16</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>0</Default>
+    </spellPower>
+    <delOnRoundEnd>
+      <Type>INT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </delOnRoundEnd>
+    <changeControllerOnRoundEnd>
+      <Type>INT8</Type>
+      <Flags>CELL_PRIVATE</Flags>
+      <Default>0</Default>
+    </changeControllerOnRoundEnd>
+    <sourceCardID>
+      <Type>UINT64</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>0</Default>
+    </sourceCardID>
+    <sourceEntityID>
+      <Type>INT32</Type>
+      <Flags>ALL_CLIENTS</Flags>
+      <Default>0</Default>
+    </sourceEntityID>
+  </Properties>
+  <BaseMethods></BaseMethods>
+  <CellMethods>
+    
+  </CellMethods>
+
+  <ClientMethods>
+
+  </ClientMethods>
+  
+</root>
